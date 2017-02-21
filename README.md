@@ -25,9 +25,9 @@ note that ```js $("#launcher")``` is parameter which is necessary. It's correspo
 ## Parameters
 For now, just 5 parameters exist :
 
- > title : title of the popup
- > eventObj : elements which allows to show Popup
- > theme : CSS Theme
-           Currently, three Graphic themes are available : lagoon, vador and RTE
- > width : width of the popup (default value is 600px, note that all ordinary Units of measurement are available)
- > height : height of the popup (There is no défault value)
+ > title : title of the popup  
+ > eventObj : elements which allows to show Popup  
+ > theme : CSS Theme  
+           Currently, three Graphic themes are available : lagoon, vador and RTE  
+ > width : width of the popup (default value is 600px, note that all ordinary Units of measurement are available)  
+ > height : height of the popup (There is no défault value)  
