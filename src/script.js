@@ -31,6 +31,7 @@
 			});
 			myParameters.eventObj.click(function(){
 				pop.show();
+				pop.css('z-index',6);
 			});
 		});
        return this;//Bonne pratique pour pouvoir enchainer plusieurs fct apres celle là
