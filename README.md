@@ -3,8 +3,7 @@ A short Jquery plug-in to create custom popup
 
 ## Installing POPs
 
-On the one hand, to use POPs, you need installing js and CSS for jquery and jqueryUI (they are already in SRC).
-On the other hand, dowload POPs js and CSS file. 
+Download latest sources codes just on the project repository (POPs.css and POPs.js)
 
 ## Usage
 
