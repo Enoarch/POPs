@@ -3,8 +3,8 @@ A short JQuery plugin for creating custom popup
 
 ## Installing POPs
 
-Download latest sources codes just on the project repository (POPs.css and POPs.js)
-To work with the plugin, you have to use  JQuery and JqueryUI.
+Download latest sources codes just on the project repository (POPs.css and POPs.js) 
+
 
 ## Usage
 
