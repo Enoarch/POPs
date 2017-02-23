@@ -20,15 +20,24 @@ To create a Popup, it's easy !
    "height":"300px"
  });
 ```
-note that ```js $("#launcher")``` is necessary. It's the element the link which allow you to show Popup.
+note that ```js $("#launcher")``` is necessary. It's the element which allow you to show Popup.
 
 ## Parameters
 
 For now, just 5 parameters exist :
 
- title : title of the popup  
- eventObj : elements which allows to show Popup  
- theme : CSS Theme  
-           Currently, three Graphic themes are available : lagoon, vador and RTE  
- width : width of the popup (default value is 600px, note that all ordinary Units of measurement are available)  
- height : height of the popup (There is no défault value)  
+ title 
+ > title of the popup 
+  
+ eventObj 
+ > elements which allows to show Popup  
+  
+ theme 
+ > CSS Theme  
+ > Currently, three Graphic themes are available : lagoon, vador and RTE 
+ 
+ width 
+ > Width of the popup (default value is 600px, note that all ordinary Units of measurement are available)  
+ 
+ height 
+ > Height of the popup (There is no défault value)  
