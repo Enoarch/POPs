@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <title>POP Test Page</title>
+	  <link rel="stylesheet" href="style/POPs.css">
+	  <link rel="stylesheet" href="style/jquery-ui.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet"> 
+	  <script src="src/jquery.min.js"></script>
+      <script src="src/jquery-ui.min.js"></script>  
+	  <style>
+	  		/*CSS INDEX PAGE*/
+	  		body,html{margin:0;padding:0;}
+			body{background-color:#BDBDBD;}
+			a {font-weight:bold;color:white;font-family:arial;font-size:24px;margin-left:20px;}
+			header{font-family: 'Sansita', sans-serif;}
+			header #popSTitle{font-size:150px;text-shadow:1px 1px #31B404}
+			header #subPopSTitle{position:relative;top:-110px;text-decoration:underline;}
+			header ul{padding:0;margin:0;margin-top:40px;}
+			header{text-align:center;}
+			header ul li{
+				display:inline-block;
+				transition:all 0.5s;-webkit-transition:all 0.5s;
+				width:150px;
+				font-size:24px;
+				padding:10px 5px;
+				background: rgb(210,255,82); /* Old browsers */
+				background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+			}
+			header ul li span{color:white;font-style:bold;margin-right:10px;transition:all 0.5s;-webkit-transition:all 0.5s;}
+			header ul li:hover{box-shadow:0 0 5px black;}
+			header ul li:hover span{color:green;}
+			header ul li:first-child{border-radius:7px 0 0 7px;}
+			header ul li:last-child{border-radius:0 7px 7px 0;}
+	  </style>
+	</head>
+	<body>
+
+		<header>
+			<h1 id='popSTitle'>POPs</h1>
+			<h2 id='subPopSTitle'>A JQuery plugin for Popups</h2>
+			<ul>
+				<li id='launcher1'><span>></span> RTE</li>
+				<li id='launcher2'><span>></span> Lagoon</li>
+				<li id='launcher3'><span>></span> Vader</li>
+			</ul>
+		</header>
+		<div class='popup'>	
+			<div id='pop1'></div>
+			<div id='pop2'></div>
+			<div id='pop3'></div>
+		</div>
+
+		<script src="src/script.js"></script> 
+		<script>
+		    $('#pop1').myPOP(
+		    	{
+		    		"title":"Hello this is a popup",
+		    		"eventObj":$("#launcher1"),
+		    		"theme":"RTE",
+		    		"width":"800px",
+		    		"height":"300px"
+		    	}
+		    );
+
+		    $('#pop2').myPOP(
+		    	{
+		    		"eventObj":$("#launcher2"),
+		    		"theme":"lagoon",
+		    		"title":"Lagoon Pop's",
+		    		"height":"200px"
+		    	}
+		    );
+
+		    $('#pop3').myPOP(
+		    	{
+		    		"eventObj":$("#launcher3"),
+		    		"theme":"vador",
+		    		"title":"Vador Pop's",
+		    		"height":"400px"
+		    	}
+		    );
+
+		</script>
+	</body> 
+</html>
