@@ -34,7 +34,7 @@ For now, just 5 parameters exist :
   
  theme 
  > CSS Theme  
- > Currently, three Graphic themes are available : lagoon, vador, Green Forest and RTE 
+ > Currently, four Graphic themes are available : lagoon, vador, Green Forest and RTE 
  
  width 
  > Width of the popup (default value is 600px, note that all ordinary Units of measurement are available)  
